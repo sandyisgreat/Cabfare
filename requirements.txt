@@ -1,0 +1,26 @@
+# Cabfare - AI Ride Comparison Dependencies
+
+# LLM & AI
+openai>=1.0.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+
+# API Integration
+requests>=2.31.0
+httpx>=0.25.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.18.0
+
+# Web Framework
+streamlit>=1.28.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
