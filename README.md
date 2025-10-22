@@ -34,28 +34,6 @@ An **LLM-powered application** that compares ride fares between **Uber** and **L
 - Uber API credentials (optional for demo)
 - Lyft API credentials (optional for demo)
 
-### Installation
-
-1. **Clone or navigate to the project:**
-```bash
-cd "/home/sapatil/AI Projs/Cabfare"
-```
-
-2. **Create virtual environment:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-3. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
-
-4. **Set up environment variables:**
-```bash
-cp .env.example .env
-# Edit .env with your API keys
 ```
 
 ### Usage
@@ -115,21 +93,6 @@ Cabfare/
 - "Is there surge pricing?"
 - "How much would I save with Lyft?"
 
-## 🔑 API Keys
-
-### OpenAI API
-Get your key from: https://platform.openai.com/api-keys
-
-### Uber API
-1. Register at: https://developer.uber.com
-2. Create an app
-3. Get your API credentials
-
-### Lyft API
-1. Register at: https://www.lyft.com/developers
-2. Create an app
-3. Get your API credentials
-
 **Note:** The app includes mock data for testing without API keys!
 
 ## 🚀 Features
@@ -152,10 +115,4 @@ Get your key from: https://platform.openai.com/api-keys
 
 ## 🤝 Contributing
 Contributions welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-MIT License
-
-## ⚠️ Disclaimer
-This is a demo application for educational purposes. Always verify prices directly with Uber and Lyft before booking.
 
